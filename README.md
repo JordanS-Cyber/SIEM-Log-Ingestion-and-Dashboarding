@@ -1,2 +1,15 @@
 # SIEM-Log-Ingestion-and-Dashboarding
-This is a home lab in which my goal is to demonstrate an understanding of the SIEM Splunk and create a custom dashboard that visualizes failed vs successful RDP attempts, Powershell execution frequency and anomalous process creation. 
+
+## Current Plan
+
+### The Tools: Use Splunk (Free/Developer tier), Sysmon, Windows VM, VirtualBox, Ubuntu
+
+### The Project: Ingest logs from my Windows VM using Sysmon and create a custom dashboard that visualizes:
+
+-Failed vs. Successful RDP logins.
+
+-PowerShell execution frequency.
+
+-Anomalous process creation (e.g., cmd.exe spawning from outlook.exe).
+
+### The Proof: Hosting my configuration files (inputs.conf, outputs.conf) and screenshots of my dashboards and process
